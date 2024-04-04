@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Kalam:wght@300;400;700&family=Qwigley&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+   background-color:  #0265E7;
+}  
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: white;
+    
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card-header {
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+  .card-footer {
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    width:80%;
+    height: 30px;
+    margin-bottom: 15px;
+    color: white;
+
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  .list-group-item {
+    border: none;
+
+  }
+.card-title{
+  text-align: center;
+}
+  .container{
+    margin: 50px;
+    padding: 20px;
+    background-color:#0265E7 ;
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .cardup{
+    justify-content: space-between;
+  }
+  
